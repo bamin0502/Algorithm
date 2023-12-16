@@ -4,8 +4,8 @@
 
 int main() {
     std::string n;
-    std::cin >> n;  // 수 입력
-    std::sort(n.begin(), n.end(), std::greater<char>());  // 내림차순으로 정렬
+    std::cin >> n;  
+    std::sort(n.begin(), n.end(), std::greater<char>());  
     std::cout << n << std::endl;
 
     return 0;
